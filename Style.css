@@ -1,0 +1,213 @@
+.mainSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1050px){
+    .mainSection{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainCharacter{
+        width: 70% !important;
+    }
+    .mainCharacter h6{
+        margin: 0 30%;
+        margin-top: 20px !important;
+    }
+    .sec1rightScroll{
+        height: 100vh;
+        width: 100% !important;
+        overflow:visible !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .sec1rightScroll h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .animate h6{
+        padding: 0 30%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .experiencebox{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sec2twoboxes{
+        justify-content: center !important;
+    }
+    .nameFont
+    {
+        text-align: center !important;
+    }
+}
+
+
+.sec2twoboxes{
+    justify-content: start;
+}
+.sec1rightScroll{
+    width: 65vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 600px;
+}
+body{
+    background-color: #151312;
+}
+.nav{
+    background-color: #1C1A19;
+    padding: 1% 2%;
+    width: 320px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.mainCharacter{
+        background-color: white;
+        width: 430px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 40px;
+        height: 600px;
+        animation: 1s ease-out 0s 1  slideFadeIn;
+}
+.mainImage{
+    background-image: linear-gradient(45deg, #CE4405, #982005);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    overflow: cover;
+    width: 270px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.nameFont{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.dottedLine{
+    position: absolute;
+    width: 150px;
+    left: 0;
+}
+.dottedLine2{
+    position: absolute;
+    width: 100px;
+    left: 0;
+    top: 390px;   
+}
+.svgHover{
+    padding: 5px;
+    /* background: yellow; */
+    transition: all .5s;
+}
+.svgHover:hover{
+    background-color: rgb(207, 207, 207);
+    padding: 5px;
+    border-radius: 5px;
+}
+.experiencefontSize{
+    font-size: 70px;
+}
+*{
+    scrollbar-width: none;
+}
+
+.animate{
+    animation: 1.4s ease-in slideFadeIn; 
+}
+@keyframes slideFadeIn{
+    0%{
+        transform: translateY(-6%);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 100;
+    }
+}
+.sec1box1{
+    background-image: url("./Images/box1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: start;
+    padding: 40px 30px 20px 30px;
+    color: white;
+    border-radius: 20px;
+
+}
+.nameFontlight{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+.sec2box2{
+    background-image: url("./Images/box2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: start;
+    padding: 40px 30px 20px 30px;
+    color: white;
+    border-radius: 20px;
+}
+.imgContainer,.imgContainer2{
+    margin-left: auto;
+}
+.imgContainer svg{
+    margin-left: auto;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    transition: all .5s;
+}
+.imgContainer2 svg{
+    margin-left: auto;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px;
+    transition: all .5s;
+}
+.imgContainer svg:hover{
+    background-color: white;
+    fill:#F46c38
+ }
+ .imgContainer2 svg:hover{
+    background-color: rgb(0, 0, 0);
+    fill:#C5FF41;
+ }
+
+.recentProjectsImages{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.recentProjectsdiv{
+    transition: all 0.5s;
+}
+.recentProjectsdiv:hover
+{
+    background-color: #1C1A19;
+    border-radius: 20px;
+}
+.recentProjectsdiv svg{
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: all .2s;
+}
+.recentProjectsdiv:hover svg
+{
+    transform: translateY(5px) scale(1.2) translateX(5px);
+}
