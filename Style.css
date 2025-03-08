@@ -250,3 +250,6 @@ body{
 {
     transform: translateY(5px) scale(1.2) translateX(5px);
 }
+.bi-github{
+    z-index: 1 ;
+}
