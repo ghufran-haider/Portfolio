@@ -46,7 +46,7 @@
     }
 }
 @media (max-width: 550px){
-    .sec1mainText{
+    .animate h1{
         font-size: 50px !important;
     }
     .mainImage{
@@ -63,13 +63,14 @@
         height: fit-content !important;
         margin: 0 !important;
     }
-    .experiencefontSize{
+    .experiencebox h1{
         font-size: 25px !important;
     }
-    .experiencesubfontSize{
-        font-size: 10px;
+    .experiencebox h6{
+        font-size: 10px !important;
+        margin: 0 !important;
     }
-    .sec1mainsubheading{
+    #sec1subhead{
         font-size: 14px !important;
         margin: 0 !important;
         padding:  10px !important;
