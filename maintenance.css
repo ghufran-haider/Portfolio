@@ -1,0 +1,46 @@
+.mainBackground{
+    background-image: url("./Images/maintainance\ background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 242px;
+}
+@media (max-width: 830px){
+    .mainBackground h2{
+        margin-right: 30% !important;
+    }
+    .mainBackground h6{
+        margin-right: 10% !important;
+    }
+    .mainBackground p{
+        margin-right: 10% !important;
+    }
+    .mainBackground div div{
+        width: 80% !important;
+    }
+}
+@media (max-width: 380px){
+    .mainBackground h2{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+    }
+    .mainBackground h6{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+    }
+    .mainBackground p{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+    }
+    .mainBackground div div{
+        width: 80% !important;
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

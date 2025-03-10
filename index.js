@@ -7,3 +7,6 @@ $(".bi-instagram").on("click",function () {
 $(".bi-twitter-x").on("click",function () {
     window.open("https://x.com/ghufranir?t=NbNt6cSQcl0aKSigSytAfg&s=08");
 })
+$(".maintenance").on("click",function () {
+    window.open("C:\\Users\\hghuf\\Desktop\\My portFolio\\Portfolio\\maintenance.html","_parent");
+})
