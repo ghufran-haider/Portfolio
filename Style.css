@@ -3,6 +3,23 @@
     justify-content: space-between;
 }
 
+/* .headingoficons{
+    background-color: #353334;
+    color: white;
+    position: absolute;
+    top: 75px;
+    padding:  5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.headingoficons h6{
+    font-size: 10px;
+} */
+
 .form-label-color{
     color: #757474;
     font-size: 14px;
@@ -122,6 +139,12 @@
     }
     #recentProjects h1{
         font-size: 50px !important;
+    }
+    #scrollbutton{
+        display: none !important;
+    }
+    #hirebutton{
+        display: none !important;
     }
 }
 
