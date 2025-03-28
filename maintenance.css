@@ -1,7 +1,7 @@
 .mainBackground{
     background-image: url("./Images/maintainance\ background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover  ;
     color: white;
     padding-top: 100px;
     padding-bottom: 242px;
@@ -20,24 +20,24 @@
         width: 80% !important;
     }
 }
-@media (max-width: 380px){
+@media (max-width: 430px){
+    .mainBackground{
+        padding: 7%;
+    }
     .mainBackground h2{
         margin-left: auto !important;
         margin-right: auto !important;
-        text-align: center;
     }
     .mainBackground h6{
         margin-left: auto !important;
         margin-right: auto !important;
-        text-align: center;
     }
     .mainBackground p{
         margin-left: auto !important;
         margin-right: auto !important;
-        text-align: center;
     }
     .mainBackground div div{
-        width: 80% !important;
+        width: 100% !important;
         margin: 0 !important;
         display: flex;
         flex-direction: column;

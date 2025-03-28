@@ -7,3 +7,14 @@ $(".bi-instagram").on("click",function () {
 $(".bi-twitter-x").on("click",function () {
     window.open("https://x.com/ghufranir?t=NbNt6cSQcl0aKSigSytAfg&s=08");
 })
+$("#mailtome").on("click",function() {
+  let yourName = $("#name").val();  
+  let message = $("#Message").val();
+  let budget = $("#budget option:selected").val(); 
+  let str = `mailto:hghufran30@gmail.com?subject=New Inquiry from ${encodeURIComponent(yourName)}&body=${encodeURIComponent("Message:\n" + message + "\n\nBudget: " + budget + "\n\nBest Regards,\n" + yourName)}`;
+  window.location.href = str;
+
+  $("#name").val("");  
+  $("#Message").val(cd );
+  $("#budget option:selected").val(cd ); 
+})

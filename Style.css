@@ -3,6 +3,44 @@
     justify-content: space-between;
 }
 
+.form-label-color{
+    color: #757474;
+    font-size: 14px;
+    font-weight: bold;
+}
+.from-input{
+    background-color: #353334;
+    border: none;
+}
+.from-input::placeholder{
+    color: #757474;
+}
+.from-input option{
+    color: #757474;
+}
+#budget{
+    color: #757474;;
+    cursor: pointer;
+}
+#Message{
+    background-color: #353334;
+    color: #757474;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+}
+.btn-my-css{
+    background-color: #F46c38;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.btn-my-css:hover{
+    background-color: #d9531e;
+    color: white;
+}
 @media (max-width: 1050px){
     .mainSection{
         flex-direction: column;
@@ -43,6 +81,13 @@
     .nameFont
     {
         text-align: center !important;
+    }
+    .nameFont2{
+        text-align: left !important;
+        font-size: 15px;
+    }
+    .nameFont2 + p{
+        font-size: 12px;
     }
 }
 @media (max-width: 550px){
@@ -126,7 +171,7 @@ body{
     margin-top: 25px;
     margin-bottom: 5px;
 }
-.nameFont{
+.nameFont , .nameFont2{
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
