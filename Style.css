@@ -166,12 +166,17 @@
 body{
     background-color: #151312;
 }
-.nav{
+.nav,.nav2{
     background-color: #1C1A19;
     padding: 1% 2%;
     width: 320px;
     border-radius: 20px;
     margin-top: 40px;
+}
+.nav2{
+    border-radius: 55px;
+    cursor: pointer;
+    background-color: #272423;
 }
 .mainCharacter{
         background-color: white;
