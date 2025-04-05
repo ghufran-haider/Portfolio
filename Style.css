@@ -58,7 +58,7 @@
     background-color: #d9531e;
     color: white;
 }
-@media (max-width: 1050px){
+@media (max-width: 1000px){
     .mainSection{
         flex-direction: column;
         align-items: center;
@@ -83,14 +83,17 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .animate h6{
+    .animate>h6{
         padding: 0 30%;
         margin-left: auto !important;
         margin-right: auto !important;
     }
     .experiencebox{
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important ;
+        margin-right: auto !important;
+    }
+    .experiencebox h6{
+        text-align:left;
     }
     .sec2twoboxes{
         justify-content: center !important;
@@ -101,7 +104,7 @@
     }
     .nameFont2{
         text-align: left !important;
-        font-size: 15px;
+        font-size: 30px !important;
     }
     .nameFont2 + p{
         font-size: 12px;
@@ -147,7 +150,18 @@
         display: none !important;
     }
     .letwork{
-        font-size: 30px !important;
+        font-size: 50px !important;
+    }
+    .sec1box1,.sec2box2{
+        width: 80% !important;
+        margin: 0;
+    }
+    .recentProjectsdiv{
+        width: 90% !important;
+    }
+    .experiencebox h6{
+        font-size: 8px !important;
+        margin-right: 0 !important;
     }
 }
 
@@ -202,7 +216,7 @@ body{
     margin-top: 25px;
     margin-bottom: 5px;
 }
-.nameFont , .nameFont2{
+.nameFont , .nameFont2 ,.experiencesubfontSize{
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
