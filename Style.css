@@ -146,6 +146,9 @@
     #hirebutton{
         display: none !important;
     }
+    .letwork{
+        font-size: 30px !important;
+    }
 }
 
 .sec1mainText{
